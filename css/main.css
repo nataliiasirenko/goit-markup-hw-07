@@ -178,13 +178,13 @@ p {
 }
 
 .social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   background-color: #fff;
   width: 44px;
   height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   fill: #afb1b8;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -287,6 +287,9 @@ p {
 }
 
 .modal__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -295,9 +298,6 @@ p {
   margin-bottom: 0;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -392,10 +392,11 @@ p {
 
 .checkbox__text {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 14px;
   line-height: 1.7;
   color: #757575;
-  align-items: center;
 }
 
 .checkbox__link {
@@ -409,8 +410,8 @@ p {
 
 .checkbox__icon {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-left: 12px;
   margin-right: 8.38px;
   width: 16px;
@@ -428,15 +429,15 @@ p {
 }
 
 .form__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px 52px;
   width: 200px;
   height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   background-color: #2196f3;
   color: #ffffff;
@@ -513,10 +514,11 @@ p {
 /* ul */
 .social-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: center;
 }
 
 /* li */
@@ -526,13 +528,13 @@ p {
 
 /* a */
 .social-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   fill: #ffffff;
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -684,10 +686,11 @@ p {
 
 .company-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: center;
 }
 
 .clients-title {
@@ -704,13 +707,13 @@ p {
 }
 
 .company-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   background-color: #fff;
   width: 170px;
   height: 92px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -803,8 +806,8 @@ p {
 
 .button-list {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-bottom: 54px;
 }
 
@@ -947,6 +950,9 @@ p {
 }
 
 .action-list__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 100%;
   height: 70px;
@@ -959,7 +965,4 @@ p {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
 }/*# sourceMappingURL=main.css.map */

@@ -24,9 +24,7 @@ p {
 // .navigation-list__link,
 .link {
   text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@include centredFlex();
 }
 // .link,
 // .contacts-list__link,

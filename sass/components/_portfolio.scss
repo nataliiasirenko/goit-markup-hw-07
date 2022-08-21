@@ -14,9 +14,7 @@
 }
 
 .button-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include centredFlex();
     margin-bottom: 54px;
 }
 
