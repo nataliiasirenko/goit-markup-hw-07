@@ -1,0 +1,48 @@
+
+.actions {
+    display: flex;
+}
+
+.business-title {
+    color: $primaryTextColor;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.action-list {
+    margin-right: 30px;
+    margin-bottom: 0px;
+
+&:last-child {
+    margin-right: 0;
+}
+}
+
+.action-list__thumb {
+    display: flex;
+    position: relative;
+}
+
+.action-list__text {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0;
+    bottom: 0px;
+    margin: 0%;
+    background: rgba(47, 48, 58, 0.8);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
